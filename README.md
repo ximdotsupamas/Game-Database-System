@@ -3,10 +3,14 @@
 
 # Project Overview
 - **ออกแบบโครงสร้าง Data Schema:** วางระบบฐานข้อมูลอาวุธสำหรับเกม Light The Way จัดหมวดหมู่คุณสมบัติอย่างเป็นระบบตาม Weapon Type, Material และ Rarity Level เพื่อรองรับการบริหารจัดการ Game Balance
-  > ประเภทของอาวุธ ![World Setting](Image/world.png)
-  > Weapon Type ![World Setting](Image/world.png)
-  > Material ![World Setting](Image/world.png)
-  > Rarity Level ![World Setting](Image/world.png)
+  > Weapon Type ![WeaponType](Database/2.png)
+  > Material ![Material](Database/4.png) ![Material](Database/5.png)
+  > Rarity Level ![Rarity Level](Database/3.png)
+# ตัวอย่างข้อมูล
+![Ex](Database/6.png)
+![Ex](Database/7.png)
+![Ex](Database/8.png)
+![Ex](Database/9.png)
 
 - **เขียน C# Script** ดึงข้อมูลแบบ Real-time จาก Google Sheets เข้าสู่ Unity ช่วยให้ฝ่าย Game Design สามารถปรับแก้ค่า Stats / Balance ได้
 - **พัฒนาระบบ UI** รองรับ Data Parsing ดึงรูปภาพ คุณสมบัติ และรายละเอียดอาวุธจากฐานข้อมูลมาแสดงผลผ่าน ScrollView ใน Unity ได้
